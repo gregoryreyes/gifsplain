@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="index.js" defer></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Gifsplain</title>
+</head>
+<body>
+
+  <header>
+    <div class="container-content">
+      <h1>Gifsplain</h1>
+    </div>
+  </header>
+
+  <section>
+    <div id="main-container">
+      <div id="search-section">
+        <input type="text" placeholder="Search Gifs...">
+        
+        <select name="rating" id="rating">
+          <option value="r">R</option>
+          <option value="pg-13">PG-13</option>
+          <option value="pg">PG</option>
+          <option value="g">G</option>
+        </select>
+        
+        <button>Search</button>
+      </div>
+  
+      <div id="image-container"></div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container-content footer-content">
+      <span>
+        <a href="https://github.com/gregoryreyes">
+          Greg Reyes <img class="github-logo" src="assets/github-logo.svg" alt="">
+        </a>
+      </span>
+    </div>
+  </footer>
+  
+</body>
+</html>

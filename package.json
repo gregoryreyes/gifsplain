@@ -1,0 +1,25 @@
+{
+  "name": "gifsplain",
+  "version": "1.0.0",
+  "description": "Search for popular gifs.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregoryreyes/gifsplain.git"
+  },
+  "author": "Greg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gregoryreyes/gifsplain/issues"
+  },
+  "homepage": "https://github.com/gregoryreyes/gifsplain#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "morgan": "^1.10.0"
+  }
+}
